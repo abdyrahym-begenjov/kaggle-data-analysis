@@ -208,7 +208,6 @@ FROM table1;
 -- Creates or replaces a view for purchase events, then sums revenue by traffic source.
 -- Создание или обновление представления для покупок с последующим расчетом выручки по источникам трафика.
 CREATE OR REPLACE VIEW table2 AS
-CREATE OR REPLACE VIEW table2 AS
 SELECT DISTINCT e.*, t.gross_revenue
 FROM ecommerce_events AS e
 JOIN transactions AS t USING (product_id, customer_id)
