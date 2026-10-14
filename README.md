@@ -5,7 +5,8 @@ Welcome to my portfolio repository! Here I collect my practical projects on data
 
 Each folder in this repository is dedicated to a separate dataset and contains two files:
 1. **Jupyter Notebook (.ipynb)** — a full data workflow: from cleaning and preprocessing to exploratory data analysis (EDA) and visualization.
-2. **Dashboard/Report** — an interactive visualization of metrics or a final presentation of project findings.
+2. **Dashboard / Report (.pbix)** — an interactive visualization of metrics or a final presentation of project findings.
+3. **SQL script (.sql)** — used for working with large datasets when processing raw data in RAM using Python becomes ineffective. It includes optimized queries (CTEs, window functions, aggregates) for preliminary filtering, transformation, and aggregation of data within the PostgreSQL DBMS before final unloading.
 
  ---
 
@@ -36,11 +37,10 @@ The approach to each dataset is built according to industry standards and includ
 ## Русский
 Добро пожаловать в мой репозиторий портфолио! Здесь я собираю свои практические проекты по анализу данных, решению задач с Kaggle и разработке интерактивных дашбордов. 
 
-Каждая папка в этом репозитории посвящена отдельному датасету и содержит два файла:
+Каждая папка в этом репозитории посвящена отдельному датасету и содержит два или три файла в зависимости от размера датасета:
 1. **Jupyter Notebook (.ipynb)** — полный цикл работы с данными: от очистки и предобработки до исследовательского анализа (EDA) и визуализации.
-2. **Дашборд / Отчет** — интерактивная визуализация метрик или итоговая презентация выводов по проекту.
-
----
+2. **Дашборд / Отчет (.pbix)** — интерактивная визуализация метрик или итоговая презентация выводов по проекту.
+3. **SQL-скрипт (.sql)** — используется для работы с датасетами большого объема, когда обработка сырых данных средствами Python в оперативной памяти становится неэффективной. Включает в себя оптимизированные запросы (CTE, оконные функции, агрегаты) для предварительной фильтрации, трансформации и агрегации данных внутри СУБД PostgreSQL перед их финальной выгрузкой.
 
 ### 🛠 Технологический стек
 
